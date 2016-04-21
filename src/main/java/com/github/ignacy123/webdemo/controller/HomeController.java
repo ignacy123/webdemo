@@ -19,7 +19,7 @@ public class HomeController {
                        @RequestParam(required = false) Double numberTwo,
                        Model model) {
         Double numberOut;
-            model.addAttribute("name", name);
+        model.addAttribute("name", name);
         model.addAttribute("numberTwo", numberTwo);
         model.addAttribute("operation", operation);
         model.addAttribute("numberOne", numberOne);
