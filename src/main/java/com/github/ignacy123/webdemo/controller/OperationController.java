@@ -1,7 +1,7 @@
 package com.github.ignacy123.webdemo.controller;
 
 import com.github.ignacy123.webdemo.domain.Operation;
-import com.github.ignacy123.webdemo.domain.OperationResult;
+import com.github.ignacy123.webdemo.dto.OperationResult;
 import com.github.ignacy123.webdemo.service.OperationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

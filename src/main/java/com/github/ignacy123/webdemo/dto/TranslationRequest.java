@@ -1,4 +1,4 @@
-package com.github.ignacy123.webdemo.domain;
+package com.github.ignacy123.webdemo.dto;
 
 /**
  * Created by ignacy on 21.04.16.

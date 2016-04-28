@@ -1,4 +1,4 @@
-package com.github.ignacy123.webdemo.domain;
+package com.github.ignacy123.webdemo.dto;
 
 /**
  * Created by ignacy on 14.04.16.
@@ -6,6 +6,8 @@ package com.github.ignacy123.webdemo.domain;
 public class OperationResult {
     private String description;
     private Double result;
+    private Double numberOne;
+    private Double numberTwo;
 
     public String getDescription() {
         return description;
@@ -23,4 +25,11 @@ public class OperationResult {
         this.result = result;
     }
 
+    public Double getNumberOne() {
+        return numberOne;
+    }
+
+    public void setNumberOne(Double numberOne) {
+        this.numberOne = numberOne;
+    }
 }
