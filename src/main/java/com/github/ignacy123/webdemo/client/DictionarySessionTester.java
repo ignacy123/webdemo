@@ -20,10 +20,6 @@ import java.util.Map;
  */
 public class DictionarySessionTester {
     public static void main(String[] args) {
-//        CloseableHttpClient httpclient = HttpClients.createDefault();
-//        HttpPost httpPost = new HttpPost("http://localhost:8080/dictionary/session");
-//        httpPost.setEntity();
-//        httpclient.execute(httpPost);
 
         RestTemplate restTemplate = new RestTemplate();
         SessionRequest sessionRequest = new SessionRequest();
